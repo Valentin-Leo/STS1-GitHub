@@ -1,3 +1,9 @@
+#include 'TD_GitHub.h'
+#pragma once
+#include <iostream>
+#include <cmath>
+using namespace std;
+
 //Fonctions réalisées par l'étudiant 1 :
 
 
