@@ -5,13 +5,37 @@
 using namespace std;
 
 //Fonctions réalisées par l'étudiant 1 :
-
-
-
-
-
-
-
+//Majorité
+bool estMajeur(int age) {
+    return (age >= 18 || age < 0); // Une personne est majeure si son âge est >= 18 ou si l'âge est négatif
+}
+//exposant
+int exposant(int nbre, int exp) {
+    int resultat = 1;
+    for (int i = 0; i < exp; ++i) {
+        resultat *= nbre;
+    }
+    return resultat;
+}
+//TVA
+float TVA(int prix) {
+    if (prix >= 1000) {
+        return prix * 1.196f; // 19.6% de TVA
+    } else {
+        return prix * 1.055f; // 5.5% de TVA
+    }
+}
+//Taille
+int plusGrand(int a, int b, int c) {
+    int max = a;
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+    return max;
+}
 
 
 
